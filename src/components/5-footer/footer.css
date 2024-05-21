@@ -1,0 +1,76 @@
+/*  ===========================================
+    Table Of Content 
+    =========================================== 
+
+    1. Footer Design.
+    2. Links Design.
+    3. Paragraph Design
+    4. Media Query
+  */
+/* =================================================
+    1. Footer Design.
+    ================================================ */
+
+    footer.flex{
+        justify-content: space-between;
+        padding-bottom: 1.9rem;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* =================================================
+        2. Links Design.
+        ================================================ */
+    
+    footer.flex ul.flex{
+        gap: 40px;
+    }
+    footer.flex ul.flex a{
+        color: var(--subtitle--color);
+        font-size: .9rem;
+    }
+    footer.flex ul.flex a:hover{
+        color: var(--blue--color);
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* =================================================
+        3. Paragraph Design
+        ================================================ */
+    footer.flex p{
+        color: rgb(113, 113, 122);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* =================================================
+        4. Media Query
+        ================================================ */
+    @media (max-width: 1100px){
+        footer.flex{
+            flex-direction: column;
+            gap: 2rem;
+        }
+    }
+            

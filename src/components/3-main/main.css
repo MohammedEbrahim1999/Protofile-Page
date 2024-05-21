@@ -1,0 +1,160 @@
+/*  ===========================================
+    Table Of Content 
+    =========================================== 
+
+    1. Main Of All Content.
+    2. Left Section == Buttons.
+    3. Right Section == Projects.
+    4. Media Query.
+  */
+
+/* ================================
+        1. Main Of All Content.
+   ================================ */
+
+   main.flex{
+    gap: 2.6rem;
+    align-items: start;
+}
+
+
+/* ================================
+        2. Left Section == Buttons .
+    ================================ */
+main.flex section.left-section{
+    flex-direction: column;
+    gap: 20px;
+}
+main.flex section.left-section button{
+    background-color: rgba(36, 37, 46, 1);
+    width: 11rem;
+    padding: .7rem 0;
+    text-align: center;
+    font-size: 1.05rem;
+    opacity: .5;
+    transition: .3s;
+    border-radius: 10px;
+}
+main.flex section.left-section button.active{
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: .6px;
+    padding: .8rem 0;
+    border: 1px solid var(--blue--color);
+}
+main.flex section.left-section button:hover{
+    opacity: 1;
+}
+
+.light main.flex section.left-section button.active {
+    border: 1px solid black;
+}
+
+/* ================================
+        3. Right Section == Projects.
+    ================================ */
+main.flex section.right-section{
+    flex-grow: 1;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 2rem;
+    justify-content: center;
+}
+main.flex section.right-section .card{
+    border: 2px solid rgba(93, 188, 252, 0.3);
+    transition: .5s;
+    border-radius: 5px;    
+    background-image: linear-gradient(rgba(255, 255, 255, 0.05),rgba(255, 255, 255, 0.05));
+}
+.light main.flex section.right-section .card, .light main.flex section.right-section .card:hover{
+    border: none;
+    box-shadow: -1px 1px 1px #00000022, 1px -1px 1px #00000022;
+}
+
+main.flex section.right-section .card:hover{
+    border: 2px solid var(--blue--color);
+    rotate: 1deg;
+    scale: 1.1;
+}
+main.flex section.right-section article.card img {
+    border-radius: 5px;
+}
+.card .box{
+    padding: 1rem .4rem;
+    width: 283px;
+}
+
+.card .box h1.land1-title{
+    color: var(--title--color);
+}
+.card .box p.land1-subtitle{
+    color: var(--subtitle--color);
+    font-size: .75rem;
+    letter-spacing: .03rem;
+    margin-top: .7rem;
+    margin-bottom: 1.2rem;
+}
+.card .box p.land1-subtitle span{
+    display: block;
+    margin-top: 8px;
+    font-size: 10px;
+    color: var(--title--color);
+}
+.light .card .box p.land1-subtitle span{
+    color: var(--title--color);
+}
+.card .box div.land1-icons{
+    justify-content: space-between;
+}
+.card .box div.land1-icons div.land1-icons-first{
+    gap: 15px;
+    font-size: 1.5rem;
+}
+.card .box div.land1-icons div.land1-icons-first .icon-link, .card .box div.land1-icons div.land1-icons-first .icon-github{
+    color: var(--subtitle--color);
+    transition: .3s;
+}
+.card .box div.land1-icons div.land1-icons-first .icon-link:hover, .card .box div.land1-icons div.land1-icons-first .icon-github:hover{
+    font-size: 1.8rem;
+    color: var(--iconhover--color);
+    cursor: pointer;
+}
+.card .box div.land1-icons a.more-icon{
+    font-size: 1.2rem;
+    color: var(--blue--color);
+    transition: .8s;
+    gap: 7px;
+}
+.card .box div.land1-icons a.more-icon:hover{
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================
+        4. Media Query.
+   ================================ */
+@media (max-width: 600px){
+    main.flex{
+        flex-direction: column;
+        gap: 2.6rem;
+        align-items: center;
+    }
+    main.flex section.left-section{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
