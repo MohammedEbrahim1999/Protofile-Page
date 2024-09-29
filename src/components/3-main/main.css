@@ -78,6 +78,7 @@ main.flex section.right-section .card:hover{
 }
 main.flex section.right-section article.card img {
     border-radius: 5px;
+    min-height: 176.55px;
 }
 .card .box{
     padding: 1rem .4rem;
