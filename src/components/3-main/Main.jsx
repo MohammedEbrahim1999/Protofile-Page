@@ -117,7 +117,7 @@ const myProjects = [
         projectTitle: "Protofile Page",
         githubLink: "https://github.com/MohammedEbrahim1999/Protofile-Page",
         category: "react",
-        imgPath: "/imgs/",
+        imgPath: "/imgs/ProtoFilo Page.png",
         projectDes: "This Is My Protofile Page That Contain All Projects I Made And What I Will Do Next",
         uses: "Technologies Used :React, Css, HTML",
         domainLink: "",
