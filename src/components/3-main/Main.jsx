@@ -128,7 +128,7 @@ const myProjects = [
         githubLink: "https://github.com/MohammedEbrahim1999/casualstore",
         category: "Mui",
         imgPath: "/imgs/Casual Store.png",
-        projectDes: "NextJs Project Represent Small E-commerce Website Using Mui And Use Next Auth to make Login With Social Media",
+        projectDes: "NextJs Project Represent Small E-commerce Website Using Mui And Use Next Auth.",
         uses: "Technologies Used :NextJs,NextAuth,Mui, Css, HTML",
         domainLink: "https://casualstore.vercel.app/",
     },
