@@ -122,6 +122,16 @@ const myProjects = [
         uses: "Technologies Used :React, Css, HTML",
         domainLink: "",
     },
+     // 13
+    {
+        projectTitle: "Casual Store",
+        githubLink: "https://github.com/MohammedEbrahim1999/casualstore",
+        category: "Mui",
+        imgPath: "/imgs/Casual Store.png",
+        projectDes: "NextJs Project Represent Small E-commerce Website Using Mui And Use Next Auth to make Login With Social Media",
+        uses: "Technologies Used :NextJs,NextAuth,Mui, Css, HTML",
+        domainLink: "https://casualstore.vercel.app/",
+    },
 ];
 const Main = () => {
     const [curActive, setcurActive] = useState("all");
