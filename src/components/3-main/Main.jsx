@@ -132,6 +132,16 @@ const myProjects = [
         uses: "Technologies Used :NextJs,NextAuth,Mui, Css, HTML",
         domainLink: "https://casualstore.vercel.app/",
     },
+    //14
+    {
+        projectTitle: "ِAdmin Dashboard",
+        githubLink: "https://github.com/MohammedEbrahim1999/Dashboard-Admin",
+        category: "Mui",
+        imgPath: "/imgs/Admin.png",
+        projectDes: "Admin Dashboard Made With React And Mui And Use Some Libraries Like (Nivo, Full Calender) Deployed With Google Firebase",
+        uses: "Technologies Used :React,Mui, Css, HTML",
+        domainLink: "https://admin-dashboard-0000.web.app/",
+    },
 ];
 const Main = () => {
     const [curActive, setcurActive] = useState("all");
